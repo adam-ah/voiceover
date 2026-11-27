@@ -1,10 +1,21 @@
+# Python
 __pycache__/
+*.py[cod]
 .venv/
+venv/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Recordings, renders, and transcript drafts
+.voiceover-*/
 *.transcript.json
-*.wav
-*.mp3
-*.m4a
-*.mp4
-*.mov
-*.mkv
-*.webm
+*.[wW][aA][vV]
+*.[mM][pP]3
+*.[mM]4[aA]
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
