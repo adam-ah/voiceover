@@ -1,0 +1,4 @@
+faster-whisper==1.2.1
+kokoro==0.9.4
+soundfile>=0.12,<1
+av>=16,<17
